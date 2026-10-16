@@ -3,6 +3,29 @@ int main()
 {
     int n;
     scanf("%d",&n);
-
+    int even=0,odd=0,pos=0,neg=0;
+    for(int i=1;i<=n;i++)
+    {
+        int x;
+        scanf("%d",&x);
+        printf("%d",x);
+        if(x%2==0)
+        {
+            even++;
+        }
+        else
+        {
+            odd++;
+        }
+        if(x<0)
+        {
+            neg++;
+        }
+        else
+        {
+            pos++;
+        }
+    }
+    printf()
     return 0;
 };
