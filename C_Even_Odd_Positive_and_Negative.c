@@ -20,7 +20,7 @@ int main()
         {
             neg++;
         }
-        else
+        else if(x>0)
         {
             pos++;
         }
