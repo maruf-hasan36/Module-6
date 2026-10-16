@@ -8,7 +8,6 @@ int main()
     {
         int x;
         scanf("%d",&x);
-        printf("%d",x);
         if(x%2==0)
         {
             even++;
@@ -26,6 +25,9 @@ int main()
             pos++;
         }
     }
-    printf()
+    printf("Even: %d\n",even);
+    printf("Odd: %d\n",odd);
+    printf("Positive: %d\n",pos);
+    printf("Negative: %d\n",neg);
     return 0;
 };
