@@ -2,11 +2,18 @@
 int main()
 {
     int n;
+    int max = 0;
     scanf("%d",&n);
-    for(int i=1;i<=n;i++)
+    for(int i = 0; i<=n;i++)
     {
-        scanf("%d",n);
-
+        int value;
+        scanf("%d",&value);
+        if(value>max)
+        {
+            max = value;
+        }
+        
     }
+    printf("%d",max);
     return 0;
 };
