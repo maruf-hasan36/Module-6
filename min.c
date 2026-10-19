@@ -2,6 +2,6 @@
 int main()
 {
     int i;
-    scanf();
+    scanf("");
     return 0;
 };
